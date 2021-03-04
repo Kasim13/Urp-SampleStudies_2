@@ -212,7 +212,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 857f07eeda46b7249b48870805680e4c, type: 2}
+  - {fileID: 2100000, guid: 78d1edc3ded80514cb8f13c960eee2e4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14884,6 +14884,7 @@ GameObject:
   - component: {fileID: 1495535310}
   - component: {fileID: 1495535309}
   - component: {fileID: 1495535308}
+  - component: {fileID: 1495535307}
   m_Layer: 0
   m_Name: DarkCirclePlane
   m_TagString: Untagged
@@ -14891,6 +14892,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &1495535307
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495535306}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e6f8c9b3490a171408769a2a72a3b1de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1495535308
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14924,7 +14944,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 78d1edc3ded80514cb8f13c960eee2e4, type: 2}
+  - {fileID: 2100000, guid: 857f07eeda46b7249b48870805680e4c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
