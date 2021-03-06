@@ -14,7 +14,7 @@ public class Teleport : MonoBehaviour
     int pointIndex = 0;
     bool isMoving = false;
 
-    //[SerializeField]
+    [SerializeField]
     SkinnedMeshRenderer[] renderer;
 
     void Start()
@@ -84,6 +84,7 @@ public class Teleport : MonoBehaviour
             {
                 renderer[i].sharedMaterial.SetFloat("DissolveTime", dissolveTime);
             }
+            finish.SetFloat("DissolveTime", dissolveTime);
             dissolveTime -= Time.deltaTime;
             yield return new WaitForEndOfFrame();
         }
